@@ -61,7 +61,7 @@ Access of each level is described below.
 
 Currency:
 	!currency/!<currency> - (Anyone or Access Level 1 if the command is disabled) Checks your current amount of currency on the channel.
-	!currency/!<currency> top5 - (Anyone) Provides a list of the 5 users with the most currency (5 minutes cooldown, mods not affected).
+	!top5 - (Anyone) Provides a list of the 5 users with the most currency (5 minutes cooldown, mods not affected).
 	!currency/!<currency> <username> - (Access Level 1) Manually check the currency of a specific person.
 	!currency/!<currency> enable/disable - (Access Level 3) Enable or disable the currency command.
 	!currency/!<currency> add <username/online/all> <amount> - (Access Level 3) Adds the specified amount of currency to the username. Using "online" as the username will give the specified of currency to all online users in the channel. Using "all" (Access Level 4) as the username will give the specified of currency to all users that have ever visited the channel.
